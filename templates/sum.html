@@ -1,0 +1,160 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/static/style.css">
+        <title>Movie App</title>
+    </head>
+    <body>
+    
+        <header>
+            <div class="container-logo">
+                <img src="https://img.icons8.com/ios/50/000000/home--v1.png" alt="Homepage" onClick="goHome()"/>
+            </div>            
+
+            <div class="container-search">
+            <form id="form">
+                <input type="text" placeholder="Search" id="search" class="search">
+            </form>
+            </div>
+        </header>
+        <main id="main">
+            <h1 class="rec-title">Recommended for you:</h1>
+            <div class="padding-div">
+    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg" alt="The Lord of the Rings: The Two Towers">
+                            <div class="movie-info">
+                                <h3>The Lord of the Rings: The Two Towers</h3>
+                                <span class="green">8.4</span>
+                            </div>
+                            <div class="overview">
+                                <p>Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.</p>
+                                <br/> 
+                                <button class="know-more" id="121" onClick="location.href = 'https://www.themoviedb.org/movie/121';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg" alt="Memento ">
+                            <div class="movie-info">
+                                <h3>Memento </h3>
+                                <span class="green">8.2</span>
+                            </div>
+                            <div class="overview">
+                                <p>Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.</p>
+                                <br/> 
+                                <button class="know-more" id="77" onClick="location.href = 'https://www.themoviedb.org/movie/77';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" alt="The Lord of the Rings: The Fellowship of the Ring">
+                            <div class="movie-info">
+                                <h3>The Lord of the Rings: The Fellowship of the Ring</h3>
+                                <span class="green">8.4</span>
+                            </div>
+                            <div class="overview">
+                                <p>Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.</p>
+                                <br/> 
+                                <button class="know-more" id="120" onClick="location.href = 'https://www.themoviedb.org/movie/120';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500" alt="Pan's Labyrinth (Laberinto del fauno, El) ">
+                            <div class="movie-info">
+                                <h3>Pan's Labyrinth (Laberinto del fauno, El) </h3>
+                                <span class="">0</span>
+                            </div>
+                            <div class="overview">
+                                <p></p>
+                                <br/> 
+                                <button class="know-more" id="0" onClick="location.href = 'https://www.themoviedb.org/movie/0';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="The Dark Knight">
+                            <div class="movie-info">
+                                <h3>The Dark Knight</h3>
+                                <span class="green">8.5</span>
+                            </div>
+                            <div class="overview">
+                                <p>Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.</p>
+                                <br/> 
+                                <button class="know-more" id="155" onClick="location.href = 'https://www.themoviedb.org/movie/155';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500" alt="City of God (Cidade de Deus) ">
+                            <div class="movie-info">
+                                <h3>City of God (Cidade de Deus) </h3>
+                                <span class="">0</span>
+                            </div>
+                            <div class="overview">
+                                <p></p>
+                                <br/> 
+                                <button class="know-more" id="0" onClick="location.href = 'https://www.themoviedb.org/movie/0';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/tuGlQkqLxnodDSk6mp5c2wvxUEd.jpg" alt="District 9 ">
+                            <div class="movie-info">
+                                <h3>District 9 </h3>
+                                <span class="orange">7.4</span>
+                            </div>
+                            <div class="overview">
+                                <p>Thirty years ago, aliens arrive on Earth. Not to conquer or give aid, but to find refuge from their dying planet. Separated from humans in a South African area called District 9, the aliens are managed by Multi-National United, which is unconcerned with the aliens' welfare but will do anything to master their advanced technology. When a company field agent contracts a mysterious virus that begins to alter his DNA, there is only one place he can hide: District 9.</p>
+                                <br/> 
+                                <button class="know-more" id="17654" onClick="location.href = 'https://www.themoviedb.org/movie/17654';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg" alt="Ocean's Eleven ">
+                            <div class="movie-info">
+                                <h3>Ocean's Eleven </h3>
+                                <span class="orange">7.4</span>
+                            </div>
+                            <div class="overview">
+                                <p>Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.</p>
+                                <br/> 
+                                <button class="know-more" id="161" onClick="location.href = 'https://www.themoviedb.org/movie/161';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/faVET7EulRCnYRwi65jnHqR2di8.jpg" alt="Alexander ">
+                            <div class="movie-info">
+                                <h3>Alexander </h3>
+                                <span class="orange">5.9</span>
+                            </div>
+                            <div class="overview">
+                                <p>Alexander, the King of Macedonia, leads his legions against the giant Persian Empire. After defeating the Persians, he leads his army across the then known world, venturing farther than any westerner had ever gone, all the way to India.</p>
+                                <br/> 
+                                <button class="know-more" id="1966" onClick="location.href = 'https://www.themoviedb.org/movie/1966';">Know More</button>
+                            </div>
+                        </div>
+                    
+                        <div class="movie">
+                            <img src="https://image.tmdb.org/t/p/w500/9xLIugjmparUuJBuoncNh4jEEaI.jpg" alt="Gladiator ">
+                            <div class="movie-info">
+                                <h3>Gladiator </h3>
+                                <span class="green">8.2</span>
+                            </div>
+                            <div class="overview">
+                                <p>In the year 180, the death of emperor Marcus Aurelius throws the Roman Empire into chaos.  Maximus is one of the Roman army's most capable and trusted generals and a key advisor to the emperor.  As Marcus' devious son Commodus ascends to the throne, Maximus is set to be executed.  He escapes, but is captured by slave traders.  Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences.</p>
+                                <br/> 
+                                <button class="know-more" id="98" onClick="location.href = 'https://www.themoviedb.org/movie/98';">Know More</button>
+                            </div>
+                        </div>
+                    </main>
+                    </div>
+                    <script src="/static/script.js"></script>
+                    </body>
+                    </html>
